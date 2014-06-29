@@ -1,102 +1,171 @@
-Apps 
-===
-Lots of people have been asking stuff...
+# Gluttony.io
+
+Your internet at your fingertips.
 
 !
 
-My story
-===
-* Wasted +1yr on first app
-* First few failed
-* Since then churn out simple ones
-* Been focused a few months maybe?
-* 7 or 8 apps now
+## LUCID UX method
+
+- **Phase 1:** Initial idea development
+- **Phase 2:** Need and demand analysis
+- **Phase 3:** Product design with prototype.
+- **Phase 4:** Iterative design for prototype improvement.
+- **Phase 5:** System development. *\**
+- **Phase 6:** Initial functionality support. *\**
+
+	*\* On full product*
 
 !
 
-Sales
-===
-* Money's kinda useful
-* Average $70/day
-* Soon to be $100 with voda app
-* Thats 36k...
-* I want a boat
+## Phase 1: Initial idea development
 
 !
 
-Coding
-===
-* Obj-C is nice
-* Think of it like a VERY simple layer of OO on top of C
-* Much simpler than C++
-* Like JS with C syntax
+## Product idea
+
+A portal to aggregate the online information streams for easier
+and centralized access.
+
+- News feeds
+- Social media
+- Email
+- Custom events
 
 !
 
-Time and Motivation
-===
-* I spend a few hours a week on it
-* Motivated by family/house
-* Dont be scared to give it a go
+## Target users
+
+Hackers / technical people
 
 !
 
-Support
-===
-* I have my email in most apps
-* Get maybe one a day?
-* Everyone is friendly
-* I gave one refund
+## Phase2: Need and demand analysis
 
 !
 
-Fail forwards
-===
-* Most apps fail
-* < $5 / week = fail
-* So: Make lots of small apps
-* Build on what works eg usage
-* Remember rovio made 51 apps before angry birds.
+## General user characteristics
+
+- Limited free time
+- They know what they want
+- They already have a workflow they are emotionally attached to
+- They like standards and good practices
+- They are privacy aware
 
 !
 
-Ideas
-===
-* Start with crummy ideas. Thats better than nothing.
-* If it's 'obvious' to you, then its probably useful to someone.
-* Execution > ideas anyway.
+## Average technical person requirements
+
+- Mobile version
+- Responsive design
+- Notifications
+- Filters
+- Support for popular sources of information
 
 !
 
-Marketing
-===
-* Tried free for a week - fail (800 -> 0)
-* I have websites for my apps - nothing
-* Tried $2 - nothing, except usage apps
-* Now I just plonk them on at $1 or $2 and leave it
-* Haven't tried adwords
+## Hackers
+
+- API to use in clients
+- Strange browsers (optional responsive design)
+- Privacy concerns
+- Support for custom information retrieval
 
 !
 
-Nuts n bolts
-===
-* Reviews take 2 weeks
-* Apple takes 30%
-* GST is 10%
-* Marginal tax will take 37% of what remains
-* Put it in the wife's name!
-* Ads in apps make nothing
+## Designers
+
+Easy and quick access to visual data (videos/pictures/etc)
 
 !
 
-Ideas
----
-* Pair up, make two apps, one in each name to make revenue split simple
-* Android - never touched. Get in the ground floor on tablets?
-* Scratch your own itch - make a very simple app
+## Developers
+
+Well...
 
 !
 
-Whats stopping you?
----
-Any questions?
+## Task analysis and subtasks
+
+- Prioritized filtered list
+- Registration
+- Account linkage
+- Source management
+  - Account linkage
+  - Feed addition
+  - Custom feeds
+- Filters
+- Source and item rating
+- Interactive objects (emails, tweets, fb posts etc.)
+
+
+!
+
+## Objects/structures of UI and prototypes
+
+!
+
+## Unregistered page
+
+<center>
+![Main screen](https://drninjabatman.mybalsamiq.com/projects/gluttony/Login.jpeg)
+</center>
+
+!
+
+## Main screen / feed
+
+- Non-interactive item mirrors (links/reddit text/hackernews items/etc)
+- Interactive items (email/posts/etc)
+
+!
+
+<center>
+![Main screen](https://drninjabatman.mybalsamiq.com/projects/gluttony/Desktop%20main%20page.jpeg)
+</center>
+
+!
+
+## Settings Screen
+
+- Privacy settings
+- Account deletion
+- External accounts management
+- Sources management
+
+!
+
+<center>
+![Profile settings](https://drninjabatman.mybalsamiq.com/projects/gluttony/Dashboard.jpeg)
+</center>
+
+!
+
+<center>
+![Sources settings](https://drninjabatman.mybalsamiq.com/projects/gluttony/Sources.jpeg)
+</center>
+
+!
+
+<center>
+![Account settings](https://drninjabatman.mybalsamiq.com/projects/gluttony/Accounts.jpeg)
+</center>
+
+!
+
+<center>
+![Privacy settings](https://drninjabatman.mybalsamiq.com/projects/gluttony/Privacy.jpeg)
+</center>
+
+!
+
+## Documentation Screen
+
+- Getting started guide
+- API documentation
+- Privacy policy
+
+!
+
+<center>
+![Documentation screen](https://drninjabatman.mybalsamiq.com/projects/gluttony/Documentation.jpeg)
+</center>
