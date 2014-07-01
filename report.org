@@ -1,0 +1,232 @@
+* Gluttony IO
+
+  Your internet at your fingertips.
+
+  [[https://drninjabatman.mybalsamiq.com/projects/gluttony/assets/gluttony.png]]
+
+  Phases according to LUCID.
+
+  - *Phase 1:* Initial idea development
+  - *Phase 2:* Need and demand analysis
+  - *Phase 3:* Product design with prototype.
+  - *Phase 4:* Iterative design for prototype improving.
+  - *Phase 5:* System development.
+  - *Phase 6:* Initial functionality support.
+
+** Initial idea development
+
+*** Initial product idea
+
+    A portal to aggregate the online information streams for easier
+    and centralized access. It's goal is not to replace any one
+    service but to provide quick access to basic functionality.
+
+    - News feeds
+    - Social media
+    - Email
+    - Custom events
+
+
+*** Target users
+
+    Hackers / technical people
+
+*** Techniques and environmental parameters
+
+    < Design team >
+
+    < plan/timeline/cost management >
+
+** Need and demand analysis
+
+*** User categories and analysis
+
+    Main users: hackers/technical people. Their general
+    characteristics are:
+
+    - limited free time
+    - They know what they want
+    - They already have a workflow they are emotionally attached to
+    - They like standards and good practices
+    - They are privacy aware
+
+    Some user subcategories and featurs they will probably want.
+
+    - *Average user:* Supercategory of the below.
+      - Mobile version
+      - Responsive design
+      - Notifications
+      - Filters
+      - Support for popular sources of information
+
+    - *Hackers:* Wont want to diverge from their workflow
+      - API to use in clients
+      - Strange browsers (optional responsive design)
+      - Privacy concerns
+      - Support for custom information retrieval
+
+    - *Designers:* Easy and quick access to visual data
+      (videos/pictures/etc)
+
+    - *Developers:* ~
+
+*** Task analysis and subtasks
+
+    Some common tasks we want to support:
+
+    - Prioritized filtered list
+    - Registration
+    - Account linkage
+    - Source management
+      - Account linkage
+      - Feed addition
+      - Custom feeds
+    - Filters
+    - Source and item rating
+    - Interactive objects (emails, tweets, fb posts etc.)
+
+*** Objects/structures of UI
+
+    - Main screen ~ feed
+      - Non-interactive item mirrors (links/reddit text/hackernews items/etc)
+      - Interactive items (email/posts/etc)
+
+    - Settings
+      - Privacy settings
+      - Account deletion
+      - External accounts management
+      - Sources management
+
+    - Documentation page
+      - Getting started guide
+      - API documentation
+      - Privacy policy
+
+    - Non-loged in page (register or login)
+
+*** Technical notes
+
+    - Django on the backend
+    - Balsamiq for mockups/wireframes
+    - Heroku for hosting
+    - codeship for CI
+
+** Product design with prototype.
+
+*** Usability goals
+
+    Should address *effectiveness*, *efficiency* and *satisfaction* and refer to:
+
+**** End user profiles
+
+     End users are expected to want:
+
+     - Transparency on methods of retrieval
+     - Configurability
+       - Item rating
+       - item sources
+       - user data retrieval
+     - Small overhead
+     - Few assumptions about the user's preferences/strong defaults
+     - Comprehensive API
+     - Concise design
+
+**** Tasks
+
+     - Flexible filtering/rating
+     - Minimal registration/login with social media
+     - Seamless interactivity with items
+
+*** Style guide
+
+    Turns out nobody really makes these anymore and guidelines change.
+
+*** Basic screen prototypes
+
+    [[https://drninjabatman.mybalsamiq.com/projects/gluttony/grid][Balsamiq mockups]]
+
+*** Usability testing
+
+    Due to the stateless nature of the service I found heuristic
+    evaluation to be the proper way to test. The testers were
+    presented with Nielsen's usability guidelines and were asked to
+    rate the prototype 1-10 on each topic and optionally leave a
+    comment.
+
+    - Visibility of system status
+    - Match between system and the real world
+    - User control and freedom
+    - Consistency
+    - Error prevention
+    - Recognizable objects
+    - Flexibility and efficiency of use
+    - Aesthetic and minimalist design
+    - Help users recognize, diagnose, and recover from errors
+    - Help and documentation
+
+    Of course the prototype is still too simple to get any good
+    answers but some level of insight was provided.
+
+    The [[https://docs.google.com/forms/d/1_O6sftiS5e0Uqw9drIT_oF5vpLZYhkKHwQ48qY4NxMA/viewform][google form]] used.
+
+** Iterative design for prototype improvement
+** System development
+** Initial functionality support
+* Extra Notes
+
+** Tools
+
+   /I refuse to believe that noone has addressed this problem. I am
+   definitely missing something/
+
+  Mockup creation prototyping software is SIMPLE. It is a subset of
+  vector graphics software and you find those under every rock. The
+  pricing is unacceptable.
+
+  Some tools I looked into were
+
+  - [[https://balsamiq.com/][Balsamiq]] (that I ended up using)
+  - [[http://www.justinmind.com/prototyper/download][prototyper]]
+  - [[http://www.axure.com/][axure]]
+  - [[https://www.optimizely.com/][Optimizely]] (for testing only)
+  - [[https://wireframe.cc/][wireframe.cc]]
+
+*** Problems
+
+    - Not open source
+    - Not for linux
+    - Vastly overpriced
+    - Crappy design
+    - Few features (they actually charge extra for pdf exports)
+    - Not even close to a standarized format
+
+*** Solution
+
+    Inkscape plugin.
+
+    - Open source
+    - Cross platform
+    - Most functionality is already there
+    - Once you have svg you can do anything
+    - Every designer knows how to use that or something similar.
+    - Already a comunity to support the core.
+
+** Limitations and TODO
+
+   This is far from a complete solution. My struggling with tools and
+   methods left a couple of stuff behind:
+
+   - Filter functionality
+   - Rating functionality
+   - Proper product flow from mockups to design
+   - Actual design
+   - (obviously) Implementation
+
+   There is good reason why the product is not complete. To summarize
+   the limitations I faced:
+
+   - No UX design software for linux users. VMs for OSx are slow
+   - Too many similar options in tools
+   - Limited time given my experience
+   - UX community is divided on practices, couldn't get very much
+     practical advice.

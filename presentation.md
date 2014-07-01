@@ -169,3 +169,103 @@ Well...
 <center>
 ![Documentation screen](https://drninjabatman.mybalsamiq.com/projects/gluttony/Documentation.jpeg)
 </center>
+
+
+## More on this
+
+[Balsamiq Story board](https://drninjabatman.mybalsamiq.com/projects/gluttony/story)
+
+!
+
+## Usage test (Nilsen)
+
+Rank the following with a
+[google form](https://docs.google.com/forms/d/1_O6sftiS5e0Uqw9drIT_oF5vpLZYhkKHwQ48qY4NxMA/viewform).
+
+- Visibility of system status
+- Match between system and the real world
+- User control and freedom
+- Consistency
+- Error prevention
+- Recognizable objects
+- Flexibility and efficiency of use
+- Aesthetic and minimalist design
+- Help users recognize, diagnose, and recover from errors
+- Help and documentation
+
+!
+
+## More specific testing
+
+- Browser plugin to track (anonymously)
+  - Common tasks
+  - number of open tabs
+  - Time spent changing context among tabs
+
+- Specific questionnaire:
+  - Under what circumstances would one give up their account
+
+!
+
+## Tools
+
+*Crappy* tools.
+
+!
+
+## What I tried
+
+- [Balsamiq](https://balsamiq.com/) (that I ended up using)
+- [prototyper](http://www.justinmind.com/prototyper/download)
+- [axure](http://www.axure.com/)
+- [Optimizely](https://www.optimizely.com/) (for testing only)
+- [wireframe.cc](https://wireframe.cc/)
+
+!
+
+## Problems
+
+- Not open source
+- Not for linux
+- Vastly overpriced
+- Crappy design *(ironically)*
+- Few features (they actually charge extra for pdf exports)
+- Not even close to a standarized format
+
+!
+
+# Solution
+
+
+!
+
+## Inkscape plugin
+
+- Open source
+- Cross platform
+- Most functionality is already there
+- Once you have svg you can do anything
+- Also SVG is an existing standard
+- Every designer knows how to use that or something similar
+- Already a comunity to support the core
+
+!
+
+## But I am probably missing something...
+
+!
+
+## TODO
+
+- Filter functionality
+- Rating functionality
+- Proper product flow from mockups to design
+- Actual design
+- (obviously) Implementation
+
+!
+
+## Thank you
+
+[fakedrake.github.io](http://fakedrake.github.io)
+This presentation on [github](https://github.com/fakedrake/gluttony-ux)
