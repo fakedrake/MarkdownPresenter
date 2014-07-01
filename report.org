@@ -1,3 +1,17 @@
+#+LaTeX_CLASS: fakedrake-org-article
+#+TITLE:      Gluttony IO - UX report
+#+AUTHOR:      Chris Perivolaropoulos
+#+DATE:        2014-07-01
+#+EMAIL:       cperivol@csail.mit.edu
+#+DESCRIPTION: A news aggregator to rule them all.
+#+LANGUAGE:    'el'
+#+begin_latex
+  \hypersetup{% Setup for hyperref
+  pdftitle    = Gluttony IO - UX report | Chris Perivolaropoulos, %Org macro to take from #+TITLE
+  pdfauthor   = Chris Perivolaropoulos %Org macro to take from #+AUTHOR
+  }
+#+end_latex
+
 * Gluttony IO
 
   Your internet at your fingertips.
