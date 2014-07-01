@@ -170,6 +170,7 @@ Well...
 ![Documentation screen](https://drninjabatman.mybalsamiq.com/projects/gluttony/Documentation.jpeg)
 </center>
 
+!
 
 ## More on this
 
@@ -209,7 +210,7 @@ Rank the following with a
 
 ## Tools
 
-*Crappy* tools.
+UX tools are *intolerable*
 
 !
 
@@ -235,7 +236,6 @@ Rank the following with a
 !
 
 # Solution
-
 
 !
 
@@ -268,4 +268,5 @@ Rank the following with a
 ## Thank you
 
 [fakedrake.github.io](http://fakedrake.github.io)
+
 This presentation on [github](https://github.com/fakedrake/gluttony-ux)
