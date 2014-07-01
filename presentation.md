@@ -267,6 +267,8 @@ UX tools are *intolerable*
 
 ## Thank you
 
-[fakedrake.github.io](http://fakedrake.github.io)
-
 This presentation on [github](https://github.com/fakedrake/gluttony-ux)
+
+And on [github pages](http://fakedrake.github.io/gluttony-ux/Presenter.html)
+
+About me: [fakedrake.github.io](http://fakedrake.github.io)
